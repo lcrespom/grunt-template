@@ -1,7 +1,8 @@
 // jshint node: true
 // See https://blog.codecentric.de/en/2014/02/cross-platform-javascript/ for a
 //	detailed Grunt task tutorial
-//TODO add tests
+//TODO add tests => look at Karma for browser-hosted unit tests,
+//	and Protractor for end-to-end, functional browser-hosted tests.
 //TODO reorganize src directory into src/js, src/html and src/css
 module.exports = function(grunt) {
 
