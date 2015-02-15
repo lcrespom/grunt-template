@@ -68,4 +68,4 @@ module.exports = function(grunt) {
 
 
 	grunt.registerTask('default', ['clean', '6to5', 'browserify', 'copy']);
-}
+};
