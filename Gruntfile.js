@@ -10,7 +10,7 @@ module.exports = function(grunt) {
 
 	grunt.initConfig({
 
-		// Readas package.json and stores it in the pkg property,
+		// Reads package.json and stores it in the pkg property,
 		//	which can be useful for embedding package properties,
 		//	e.g. <%= pkg.name %>
 		pkg: grunt.file.readJSON('package.json'),
