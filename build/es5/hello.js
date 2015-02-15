@@ -1,0 +1,8 @@
+"use strict";
+
+var hello = function (name) {
+	console.log("Hello, " + name);
+};
+
+module.exports = hello;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9oZWxsby5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOztBQUFBLElBQUksS0FBSyxHQUFHLFVBQUMsSUFBSSxFQUFLO0FBQ3JCLFFBQU8sQ0FBQyxHQUFHLGFBQVcsSUFBSSxDQUFHLENBQUM7Q0FDOUIsQ0FBQTs7aUJBRWMsS0FBSyIsImZpbGUiOiJzcmMvaGVsbG8uanMiLCJzb3VyY2VzQ29udGVudCI6WyJsZXQgaGVsbG8gPSAobmFtZSkgPT4ge1xuXHRjb25zb2xlLmxvZyhgSGVsbG8sICR7bmFtZX1gKTtcbn1cblxuZXhwb3J0IGRlZmF1bHQgaGVsbG87Il19

@@ -6,7 +6,7 @@ module.exports = function(grunt) {
 
 		pkg: grunt.file.readJSON('package.json'),
 
-		clean: ['dist', 'es5'],
+		clean: ['build'],
 
 		'6to5': {
 			options: {
@@ -18,7 +18,7 @@ module.exports = function(grunt) {
 					expand: true,
 					cwd: 'src/',
 					src: ['**/*.js'],
-					dest: 'es5/',
+					dest: 'build/es5/',
 				}],
 			}
 		},
@@ -26,7 +26,7 @@ module.exports = function(grunt) {
 		browserify: {
 			main: {
 				files: {
-					'dist/bundle.js': 'es5/main.js',
+					'build/dev/bundle.js': 'build/es5/main.js',
 				},
 				options: {
 					banner: '// My application, v0.9',
@@ -40,8 +40,8 @@ module.exports = function(grunt) {
 		copy: {
 			main: {
 				files: {
-					'dist/index.html' :'src/index.html',
-					'dist/': 'lib/**'
+					'build/dev/index.html' :'src/index.html',
+					'build/dev/': 'lib/**'
 				}
 			},
 		}
