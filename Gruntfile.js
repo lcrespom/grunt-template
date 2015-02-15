@@ -1,6 +1,5 @@
 // See https://blog.codecentric.de/en/2014/02/cross-platform-javascript/ for a
 //	detailed Grunt task tutorial
-//TODO jshint
 //TODO add tests
 //TODO reorganize src directory into src/js, src/html and src/css
 module.exports = function(grunt) {
