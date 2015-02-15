@@ -1,3 +1,4 @@
+// jshint node: true
 // See https://blog.codecentric.de/en/2014/02/cross-platform-javascript/ for a
 //	detailed Grunt task tutorial
 //TODO add tests
